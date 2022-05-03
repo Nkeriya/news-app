@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 22,
+    "articles": [
+        {
+            "source": {
+                "id": "rtl-nieuws",
+                "name": "RTL Nieuws"
+            },
+            "author": "RTL Nieuws",
+            "title": "Extreme hitte in India: 'Met 50 graden kun je niks meer'",
+            "description": "Het ene na het andere hitterecord sneuvelt in India. Het is er al weken enorm heet, met temperaturen die zelfs naar de 50 graden schieten. Het is het gevolg van klimaatverandering en gaat steeds vaker voorkomen, zeggen deskundigen.",
+            "url": "https://www.rtlnieuws.nl/nieuws/video/video/5305951/india-hitte-klimaatverandering-weer-meteoroloog-temperatuur-hittegolf",
+            "urlToImage": "https://screenshots.rtl.nl/system/thumb/sz=720x404/uuid=28c9c1ef-76ea-4059-be75-add1e79c6981",
+            "publishedAt": "2022-05-03T10:37:24.1344462Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-huffington-post",
+                "name": "The Huffington Post"
+            },
+            "author": "AP",
+            "title": "2022 Midterms: What To Know About Tuesday's Primaries In Ohio And Indiana",
+            "description": "The races, particularly in Ohio, could provide a fresh window into former President Trump's sway among the party faithful.",
+            "url": "https://www.huffpost.com/entry/election-2022-midterms-ohio-indiana_n_6270f5b2e4b029505df61205",
+            "urlToImage": "https://img.huffingtonpost.com/asset/6264a66423000043f413a56e.jpeg?cache=um5ZNMuP8n&ops=1778_1000",
+            "publishedAt": "2022-05-03T09:46:01Z",
+            "content": "Former President Donald Trump, right, endorsed Hillbilly Elegy author J.D. Vance in the Republican faceoff for the coveted open U.S. Senate seat in Ohio.\r\nCOLUMBUS, Ohio (AP) The first multistate con… [+7690 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "SpiceJet: 'The plane began bouncing up and down like a ball'",
+            "description": "A passenger on a SpiceJet flight which hit turbulence in India recounts the harrowing ordeal.",
+            "url": "http://www.bbc.co.uk/news/world-asia-india-61304965",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7769/production/_124396503_mediaitem124396299.jpg",
+            "publishedAt": "2022-05-03T09:22:24.8149869Z",
+            "content": "Media caption, SpiceJet: Passengers' harrowing ordeal as plane hits turbulence\r\nAt least 17 people were injured on board a SpiceJet flight in India after the plane hit severe turbulence before landin… [+4188 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": null,
+            "title": "Ohio, Indiana primary voters to nominate candidates for U.S. Senate, House, statewide races",
+            "description": "Ohio's polls will be open for in-person voting from 6:30 a.m. to 7:30 p.m. on Tuesday in the state's contentious primary.",
+            "url": "https://www.usatoday.com/story/news/politics/2022/05/03/primary-election-ohio-indiana-may-3/9540196002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2022/05/02/USAT/22a388ae-92d7-4b5b-b507-f0f914f8fff6-GTY_1240191429.jpg?auto=webp&crop=7933,4463,x0,y793&format=pjpg&width=1200",
+            "publishedAt": "2022-05-03T08:00:31+00:00",
+            "content": "COLUMBUS, Ohio — Tuesday brings to an end an Ohio primary election that has been so contentious it nearly brought a pair of Republican U.S. Senate candidates to fisticuffs on the debate stage earlier… [+6360 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": null,
+            "title": "‘2024, Modi once more’: Has BJP found its next election slogan in Berlin?",
+            "description": "With the Indian diaspora in Berlin, Germany, chanting, \"2024, Modi once more\", the BJP may just have found its next election slogan for the next Lok Sabha polls.",
+            "url": "https://www.indiatoday.in/india/story/-2024-modi-once-more-bjp-next-election-slogan-in-berlin-1944853-2022-05-03",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202205/Modi1-647x363.jpeg?xoO1amuKt6zUpE24xdkOFMZj_oToYQJr",
+            "publishedAt": "2022-05-03T07:49:42+00:00",
+            "content": "With the Indian diaspora in Berlin, Germany, chanting, \"2024, Modi once more\", the BJP may just have found its next election slogan for the next Lok Sabha polls."
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "AIJAZ HUSSAIN",
+            "title": "India's Muslims mark Eid al-Fitr amid community violence",
+            "description": "SRINAGAR, India (AP) — Muslims across India marked Eid al-Fitr on Tuesday by offering prayers outside mosques, even as the celebrations this year came in the backdrop of a series of recent attacks against the community during the month of Ramadan.",
+            "url": "https://apnews.com/56f297b2c587c335f6a1eeb40c25d10c",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/c12a16983a6a48c2a07e0ecfe3d6486d/3000.jpeg",
+            "publishedAt": "2022-05-03T07:44:53Z",
+            "content": "SRINAGAR, India (AP) — Muslims across India marked Eid al-Fitr on Tuesday by offering prayers outside mosques, even as the celebrations this year came in the backdrop of a series of recent attacks ag… [+3210 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "AIJAZ HUSSAIN Associated Press",
+            "title": "India's Muslims mark Eid al-Fitr amid community violence",
+            "description": "",
+            "url": "https://abcnews.go.com/International/wireStory/indias-muslims-mark-eid-al-fitr-amid-community-84462779",
+            "urlToImage": "https://s.abcnews.com/images/International/WireAP_c12a16983a6a48c2a07e0ecfe3d6486d_16x9_992.jpg",
+            "publishedAt": "2022-05-03T07:44:51Z",
+            "content": "SRINAGAR, India -- Muslims across India marked Eid al-Fitr on Tuesday by offering prayers outside mosques, even as the celebrations this year came in the backdrop of a series of recent attacks agains… [+3133 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": null,
+            "title": "Norway, Singapore Wealth Funds Invest in India's Largest IPO",
+            "description": "",
+            "url": "https://www.bloomberg.com/news/articles/2022-05-03/norway-singapore-wealth-funds-invest-in-india-s-largest-ipo",
+            "urlToImage": null,
+            "publishedAt": "2022-05-03T04:31:00+00:00",
+            "content": ""
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": null,
+            "title": "Pics: Eid Celebrations In India",
+            "description": "Pics: Eid Celebrations In India",
+            "url": "https://www.ndtv.com/photos/news/pics-eid-celebrations-in-india-102317",
+            "urlToImage": "https://drop.ndtv.com/albums/NEWS/pics-eid-celebr_637871672690863546/637871672690863546_640x480.jpeg",
+            "publishedAt": "2022-05-03T04:04:00+00:00",
+            "content": "................................ Advertisement ................................"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "Swati Bhasin",
+            "title": "PM Modi in Denmark on day 2 in Europe after wrapping Germany visit: 10 points",
+            "description": "PM Modi in Europe: The prime minister is set to visit Copenhagen in Denmark. He will then head to Paris in France.  | Latest News India",
+            "url": "https://www.hindustantimes.com/india-news/pm-modi-in-denmark-on-day-2-in-europe-after-wrapping-germany-visit-10-points-101651543994607.html",
+            "urlToImage": "https://images.hindustantimes.com/img/2022/05/03/1600x900/PTI05-02-2022-000326B-0_1651544063370_1651544075034.jpg",
+            "publishedAt": "2022-05-03T02:17:30+00:00",
+            "content": "Prime Minister Narendra Modi is set to visit Denmark for the first time on Tuesday after a busy first day of the three-nation Europe visit that kickstarted with Germany. Denmark PM Mette Frederiksen … [+2923 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Manish Singh",
+            "title": "Andreessen Horowitz plans $500 million investment in Indian startups",
+            "description": "Andreessen Horowitz is looking to get aggressive in India; it has earmarked about $500 million to back Indian startups.",
+            "url": "https://techcrunch.com/2022/05/02/andreessen-horowitz-india/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/08/GettyImages-604311102.jpg?w=601",
+            "publishedAt": "2022-05-03T01:15:50Z",
+            "content": "Andreessen Horowitz, which made its maiden investment in India last year, is looking to get aggressive in the worlds second largest internet market.\r\nThe Silicon Valley-based venture capital firm has… [+3194 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "Piyush Tripathi",
+            "title": "Prashant Kishor hints at plunge into active politics from Bihar",
+            "description": "India News: Poll strategist Prashant Kishor dropped hints on Monday of taking a political plunge in Bihar, after turning down the Congress’s offer. “My quest to b",
+            "url": "https://timesofindia.indiatimes.com/india/prashant-kishor-hints-at-plunge-into-active-politics-from-bihar/articleshow/91271403.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-91271400,width-1070,height-580,imgsize-32802,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2022-05-02T19:52:00+00:00",
+            "content": "Prashant Kishor hints at plunge into active politics from Bihar\r\n<ul><li>News</li>\r\n<li>India News</li>\r\n<li>Prashant Kishor hints at plunge into active politics from Bihar</li></ul>"
+        },
+        {
+            "source": {
+                "id": "the-hindu",
+                "name": "The Hindu"
+            },
+            "author": "Ananth Krishnan",
+            "title": "Dalai Lama’s close aides targeted on Pegasus spyware list",
+            "description": "‘Analysis indicates that the Indian govt. was selecting the potential targets’",
+            "url": "https://www.thehindu.com/news/international/dalai-lamas-close-aides-targeted-on-pegasus-spyware-list/article35474285.ece",
+            "urlToImage": "https://www.thehindu.com/news/international/dvshb0/article35474284.ece/ALTERNATES/LANDSCAPE_615/thjc-DalaiLama",
+            "publishedAt": "2021-07-22T15:47:01Z",
+            "content": "Several of the top India-based aides to the Tibetan spiritual leader, the Dalai Lama, figure on the list of potential targets for spying using the Pegasus spyware, according to a report on Thursday. … [+2399 chars]"
+        },
+        {
+            "source": {
+                "id": "rte",
+                "name": "RTE"
+            },
+            "author": "RTÉ News",
+            "title": "UK continues with reopening plan despite concerns",
+            "description": "British ministers are pushing on with a major easing of restrictions on Monday despite concerns over the Indian variant of coronavirus, as they were criticised for allowing the strain's import.",
+            "url": "https://www.rte.ie/news/uk/2021/0515/1221764-uk-indian-variant/",
+            "urlToImage": "https://img.rasset.ie/0016cb40-1600.jpg",
+            "publishedAt": "2021-05-15T09:33:48Z",
+            "content": "British ministers are pushing on with a major easing of restrictions on Monday despite concerns over the Indian variant of coronavirus, as they were criticised for allowing the strain's import.\r\nPrim… [+5066 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Rajat Pandit",
+            "title": "Army explores procurement of 350 light tanks for mountainous terrain after border standoff with China",
+            "description": "India News:  The Army is now exploring the possibility of procuring 350 light tanks, which can also be transported by air, to augment its firepower in high-altitu",
+            "url": "http://timesofindia.indiatimes.com/india/army-explores-procurement-of-350-light-tanks-for-mountainous-terrain-after-border-standoff-with-china/articleshow/82217825.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82217908,width-1070,height-580,imgsize-264639,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T08:29:00Z",
+            "content": "Army explores procurement of 350 light tanks for mountainous terrain after border standoff with China\r\n<ul><li>News</li>\r\n<li>India News</li>\r\n<li>Army explores procurement of 350 light tanks for mou… [+58 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Times Of India",
+            "title": "PBKS vs MI Live Score, IPL 2021: Mumbai Indians seek consistency; Punjab Kings eye return to winning ways",
+            "description": "IPL Live Score: Mumbai Indians seek consistency; Punjab Kings eye return to winning ways. Stay with TOI to get IPL live score, playing 11, scorecard, highlights and ball by ball score updates of the 17th IPL match between Punjab Kings and Mumbai Indians.",
+            "url": "http://timesofindia.indiatimes.com/sports/cricket/ipl/live-blog/punjab-kings-vs-mumbai-indians-pbks-vs-mi-live-score-ipl-2021-17th-match-chennai/liveblog/82214950.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82214950,width-1070,height-580,imgsize-157009,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T05:44:49Z",
+            "content": "Ravi Bishnoi return on the cards?\r\nDeepak Hooda showed what he is capable of, but greater consistency would be needed from him if the team has to prosper. They bet on Australian pace imports Jhye Ric… [+3131 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "PTI",
+            "title": "Zydus Cadila gets DCGI nod for hepatitis drug for Covid-19 treatment",
+            "description": "India News: Drug firm Zydus Cadila on Friday said it has received restricted emergency use approval from the Indian drug regulator for the use of Pegylated Interf",
+            "url": "http://timesofindia.indiatimes.com/india/zydus-cadila-gets-dcgi-nod-for-hepatitis-drug-for-covid-19-treatment/articleshow/82214909.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82214921,width-1070,height-580,imgsize-98052,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T05:43:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Bloomberg",
+            "title": "Even record death toll may hide extent of India’s Covid crisis",
+            "description": "India News: Bodies piling up at crematoriums and burial grounds across India are sparking concerns that the death toll from a ferocious new Covid-19 wave may be m.",
+            "url": "http://timesofindia.indiatimes.com/india/even-record-death-toll-may-hide-extent-of-indias-covid-crisis/articleshow/82213444.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82213819,width-1070,height-580,imgsize-232887,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T04:41:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Dipak K Dash",
+            "title": "Government to provide 5 kg free food grains to poor for May & June",
+            "description": "India News: The government on Friday announced to provide 5 kg free food grains to the poor for May and June 2021. This will cover nearly 80 crore beneficiaries u",
+            "url": "http://timesofindia.indiatimes.com/india/government-to-provide-5-kg-free-food-grains-to-poor-for-may-june/articleshow/82213582.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82213583,width-1070,height-580,imgsize-1921513,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T04:23:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "'Inappropriate': PM Modi objects to 'protocol break' during meeting; Delhi CM expresses regret",
+            "description": "India News: Delhi chief minister Arvind Kejriwal on Friday faced flak for sharing a live telecast of an \"in-house\" meeting with Prime Minister Narendra Modi where",
+            "url": "http://timesofindia.indiatimes.com/india/delhi-cmo-expresses-regret-over-televised-address-during-meeting-with-pm-modi/articleshow/82213159.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82213159,width-1070,height-580,imgsize-134672,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T03:54:00Z",
+            "content": null
+        }
+    ]
+}
