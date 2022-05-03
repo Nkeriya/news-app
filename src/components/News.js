@@ -2,19 +2,46 @@ import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 
 export default class News extends Component {
+  constructor() {
+    super();
+    this.state = {
+      articles: [],
+      loading: false,
+    };
+  }
+
+  async componentDidMount() {
+    let url =
+      "https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&pageSize=9";
+    let data = await fetch(url);
+    let parsedData = await data.json();
+    this.setState({
+      articles: parsedData.articles,
+    });
+  }
+
   render() {
     return (
       <div className="container my-2">
-        <div className="row">
-          <div className="col-md-4">
-            <NewsItem item="title 1" description="description1" />
-          </div>
-          <div className="col-md-4">
-            <NewsItem item="title 1" description="description1" />
-          </div>
-          <div className="col-md-4">
-            <NewsItem item="title 1" description="description1" />
-          </div>
+        <h1>Top headlines...</h1>
+        <div className="row my-2">
+          {this.state.articles.map((element) => {
+            return (
+              <div
+                key={element.url}
+                className="col-md-4"
+                style={{ height: "450px", overFlow: "hidden" }}
+              >
+                <NewsItem
+                debugger
+                  title={element.title ? element.title.slice(0, 45):""}
+                  description={element.description ? element.description.slice(0, 90):""}
+                  imageUrl={element.urlToImage ? element.urlToImage:""}
+                  newsUrl={element.url}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     );
