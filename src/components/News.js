@@ -12,7 +12,7 @@ export default class News extends Component {
 
   async componentDidMount() {
     let url =
-      "https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&pageSize=9";
+      "https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&pageSize=10";
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({
@@ -24,19 +24,14 @@ export default class News extends Component {
     return (
       <div className="container my-2">
         <h1>Top headlines...</h1>
-        <div className="row my-2">
+        <div className="row">
           {this.state.articles.map((element) => {
             return (
-              <div
-                key={element.url}
-                className="col-md-4"
-                style={{ height: "450px", overFlow: "hidden" }}
-              >
+              <div key={element.url} className="col-md-4 my-2">
                 <NewsItem
-                debugger
-                  title={element.title ? element.title.slice(0, 45):""}
-                  description={element.description ? element.description.slice(0, 90):""}
-                  imageUrl={element.urlToImage ? element.urlToImage:""}
+                  title={element.title ? element.title : ""}
+                  description={element.description ? element.description : ""}
+                  imageUrl={element.urlToImage ? element.urlToImage : ""}
                   newsUrl={element.url}
                 />
               </div>
