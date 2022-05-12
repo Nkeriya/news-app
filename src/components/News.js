@@ -1,19 +1,32 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
+import PropTypes from "prop-types";
+import NextPrevButton from "./NextPrevButton";
 
 export default class News extends Component {
-  constructor() {
-    super();
+  static defaultProps = {
+    pageSize: 6,
+    category: "general",
+  };
+
+  static propTypes = {
+    pageSize: PropTypes.number,
+    category: PropTypes.string,
+  };
+
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [],
       loading: false,
       page: 1,
     };
+    document.title = `${this.capitalizeFirstLetter(this.props.category)} - News`
   }
 
-  async componentDidMount() {
-    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
+  async updateNewsCard() {
+    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -24,42 +37,32 @@ export default class News extends Component {
     });
   }
 
-  handlePrevEvent = async () => {
-    if (this.state.page > 1) {
-      let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&pageSize=${
-        this.props.pageSize
-      }&page=${this.state.page - 1}`;
-      this.setState({ loading: true });
-      let data = await fetch(url);
-      let parsedData = await data.json();
-      this.setState({
-        articles: parsedData.articles,
-        page: this.state.page - 1,
-        loading: false,
-      });
-    }
+  async componentDidMount() {
+    this.updateNewsCard();
+  }
+
+  capitalizeFirstLetter = (string)=> {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  handlePrevEvent = () => {
+    this.setState({
+      page: this.state.page - 1,
+    });
+    this.updateNewsCard();
   };
 
-  handleNextEvent = async () => {
-    if (this.state.page <= Math.ceil(this.state.totalArticles / 10)) {
-      let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&pageSize=${
-        this.props.pageSize
-      }&page=${this.state.page + 1}`;
-      this.setState({ loading: true });
-      let data = await fetch(url);
-      let parsedData = await data.json();
-      this.setState({
-        articles: parsedData.articles,
-        page: this.state.page + 1,
-        loading: false,
-      });
-    }
+  handleNextEvent = () => {
+    this.setState({
+      page: this.state.page + 1,
+    });
+    this.updateNewsCard();
   };
 
   render() {
     return (
       <div className="container my-2">
-        <h1>Top headlines...</h1>
+        <h1 className="text-center m-4">Top headlines...</h1>
         {this.state.loading && <Spinner />}
         <div className="row">
           {!this.state.loading &&
@@ -79,29 +82,15 @@ export default class News extends Component {
               );
             })}
         </div>
-        <div className="container d-flex justify-content-between m-2 ">
-          <button
-            type="button"
-            className="btn btn-info"
-            onClick={this.handlePrevEvent}
-            disabled={this.state.page <= 1}
-          >
-            &#60; Previous
-          </button>
-          <p>{this.state.page}</p>
-          <button
-            type="button"
-            className="btn btn-info"
-            onClick={this.handleNextEvent}
-            disabled={
-              this.state.page >= Math.ceil(this.state.totalArticles / 10)
-            }
-          >
-            Next &#62;
-          </button>
-        </div>
-        <br />
-        <br />
+        <NextPrevButton
+          prevClickedEvent={this.handlePrevEvent}
+          nextClickedEvent={this.handleNextEvent}
+          disablePrev={this.state.page <= 1}
+          disableNext={
+            this.state.page >= Math.ceil(this.state.totalArticles / 10)
+          }
+          pageNumber={this.state.page}
+        />
       </div>
     );
   }
