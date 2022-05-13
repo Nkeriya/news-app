@@ -81,7 +81,12 @@ export default class News extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center m-4">Top headlines...</h1>
+        <h1
+          className="text-center"
+          style={{ marginTop: "80px", marginBottom: "20px" }}
+        >
+          Top headlines...
+        </h1>
         {this.state.loading && <Spinner />}
         <InfiniteScroll
           dataLength={this.state.articles.length}
