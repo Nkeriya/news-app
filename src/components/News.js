@@ -21,42 +21,47 @@ export default class News extends Component {
       articles: [],
       loading: false,
       page: 1,
+      totalResults: 0,
     };
-    document.title = `${this.capitalizeFirstLetter(this.props.category)} - News`
+    document.title = `${this.capitalizeFirstLetter(
+      this.props.category
+    )} - News`;
   }
 
-  async updateNewsCard() {
-    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${this.state.page}`;
+  componentDidMount() {
+    this.updateNewsCard(this.state.page);
+  }
+
+  async updateNewsCard(page) {
+    const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=72638e89521642eeae6d41e5f196d221&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${page}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({
       articles: parsedData.articles,
-      totalArticles: parsedData.totalResults,
+      totalResults: parsedData.totalResults,
       loading: false,
     });
   }
 
-  async componentDidMount() {
-    this.updateNewsCard();
-  }
-
-  capitalizeFirstLetter = (string)=> {
+  capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
-  }
+  };
 
   handlePrevEvent = () => {
+    let pagev = this.state.page - 1;
     this.setState({
-      page: this.state.page - 1,
+      page: pagev,
     });
-    this.updateNewsCard();
+    this.updateNewsCard(pagev);
   };
 
   handleNextEvent = () => {
+    let pagev = this.state.page + 1;
     this.setState({
-      page: this.state.page + 1,
+      page: pagev,
     });
-    this.updateNewsCard();
+    this.updateNewsCard(pagev);
   };
 
   render() {
@@ -87,7 +92,7 @@ export default class News extends Component {
           nextClickedEvent={this.handleNextEvent}
           disablePrev={this.state.page <= 1}
           disableNext={
-            this.state.page >= Math.ceil(this.state.totalArticles / 10)
+            this.state.page >= Math.ceil(this.state.totalResults / 10)
           }
           pageNumber={this.state.page}
         />
